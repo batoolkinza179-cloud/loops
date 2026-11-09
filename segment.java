@@ -1,0 +1,10 @@
+package loops;
+
+public class segment {
+    static void main(String[] args) {
+        int k =1, i=2;
+        while (++i<6)
+            k*=i;
+        System.out.println(k);
+    }
+}
